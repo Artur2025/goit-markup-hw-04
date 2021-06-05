@@ -6,8 +6,7 @@
   --background-footer: rgba(47, 48, 58, 1);
   --background-section-1: #e5e5e5;
   --background-section-2: #f5f4fa;
-  --fill-icons:  rgba(175, 177, 184, 1);
-
+  --fill-icons: rgba(175, 177, 184, 1);
 }
 
 .container {
@@ -20,8 +19,7 @@
 
 /* heder style */
 .heder {
-  background: var(--color-white);0
-  border-bottom: 1px solid #ececec;
+  background: var(--color-white);
 }
 .nav-row {
   display: flex;
@@ -85,13 +83,13 @@
   color: var(--color-accent);
   fill: var(--color-accent);
 }
-.mail-item{
+.mail-item {
   display: flex;
   align-items: center;
 }
-.mail-item a{
+.mail-item a {
   margin-left: 10px;
-
+  fill: var(--color-text);
 }
 
 /* main style */
@@ -99,12 +97,9 @@ main {
   background: var(--color-white);
 }
 
- .hero {
-  background: var(--background-footer);
-}
 .overlay {
   max-width: 1600px;
-  min-height: 600px;
+  padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -116,14 +111,13 @@ main {
     url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-} 
+}
 
 .hero-title {
   font-family: Roboto;
   font-size: 44px;
   line-height: 1.364;
   color: var(--color-white);
-  padding-top: 200px;
 
   margin-bottom: 30px;
 }
@@ -164,20 +158,19 @@ button {
   background: rgba(245, 244, 250, 1);
   border-radius: 4px;
   display: flex;
-    justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 
 .care-list .title {
-  font-style: Bold;
+  font-style: bold;
   font-size: 14px;
   line-height: 1.172;
   margin-bottom: 10px;
 }
-.mark{
+.mark {
   width: 70px;
   height: 70px;
-  
 }
 
 .busyness {
@@ -237,17 +230,17 @@ button {
   line-height: 1.172;
   color: rgba(117, 117, 117, 1);
 }
-.ikons-list{
+.ikons-list {
   padding: 16px 32px 0;
   margin-bottom: 0;
   display: flex;
   justify-content: space-between;
 }
-.icon{
+.icon {
   width: 20px;
-  height: 20px;     
+  height: 20px;
 }
-.ikons{  
+.ikons {
   width: 44px;
   height: 44px;
   fill: var(--fill-icons);
@@ -257,7 +250,7 @@ button {
   justify-content: center;
   align-items: center;
 }
-.ikons:hover{
+.ikons:hover {
   fill: white;
   background: var(--color-accent);
 }
@@ -266,7 +259,6 @@ button {
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
-
 }
 .client-item {
   width: 170px;
@@ -277,30 +269,32 @@ button {
   justify-content: center;
   align-items: center;
   fill: var(--fill-icons);
-
 }
-.client-item:hover{
+.client-item:hover {
   fill: var(--color-accent);
   border: 1px solid var(--color-accent);
 }
 .client-title {
-  Font style: Bold;
-  Font size: 36px;
-  Line height: 1.172;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.172;
   text-align: center;
   padding-top: 94px;
   padding-bottom: 50px;
 }
-.icon-footer{
+.icon-footer {
   width: 106px;
   height: 60px;
 }
-.client-logo{
+.client-logo {
   width: 106px;
   height: 60px;
 }
 
 /* portfolio style */
+.port-bord {
+  border-bottom: 1px solid #ececec;
+}
 
 .container-button {
   padding-top: 94px;
@@ -344,9 +338,8 @@ button {
   margin-bottom: 30px;
   box-shadow: 0 1px 1px 1px #eeeeee;
 }
-.portfolio-item:hover{
-   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-
+.portfolio-item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .portfolio .container {
   background: var(--color-white);
@@ -373,11 +366,10 @@ button {
   line-height: 1.9;
 }
 /* footer style */
-.footer{
+.footer {
   display: flex;
-  
 }
-.box-adres{
+.box-adres {
   width: 231px;
 }
 .text-adress {
@@ -395,13 +387,14 @@ button {
 }
 footer {
   background: var(--background-footer);
-    
 }
 
-footer .container {  
+footer .container {
   background: inherit;
   padding-top: 36px;
   padding-bottom: 60px;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -410,27 +403,24 @@ footer .container {
 .adress-list {
   font-style: normal;
 }
-.foter-ikons{
+.foter-ikons {
   width: 206px;
   margin-left: 70px;
-  
 }
 .footer-title {
-  Font-style: Bold;
+  font-style: bold;
   font-size: 14px;
-  Line-height: 1.172;
-  padding-top: 34px;
-  padding-bottom: 20px;
+  line-height: 1.172;
+  margin-bottom: 20px;
   color: #ffffff;
 }
-.foter-ikons .ikons{
-  background:rgba(255, 255, 255, 0.1);
-  fill: white;  
+.foter-ikons .ikons {
+  background: rgba(255, 255, 255, 0.1);
+  fill: white;
 }
-.foter-ikons .ikons:hover{
+.foter-ikons .ikons:hover {
   background: var(--color-accent);
 }
-.foter-ikons .ikons-list{
+.foter-ikons .ikons-list {
   padding: 0;
 }
-
