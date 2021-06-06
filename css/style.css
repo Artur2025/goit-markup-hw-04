@@ -184,6 +184,9 @@ button {
   padding-bottom: 50px;
 }
 .container .our-busyness {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.172;
   text-align: center;
 }
 .section-staff {
@@ -217,6 +220,9 @@ button {
   margin-bottom: 10px;
 }
 .staff .our-staff {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.172;
   padding-top: 94px;
   padding-bottom: 50px;
 }
@@ -325,8 +331,7 @@ button {
 .list-button .item-button + .item-button {
   margin-left: 8px;
 }
-.item-button {
-}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
